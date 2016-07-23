@@ -1,0 +1,62 @@
+/*----------------buttons---------------*/
+
+button{
+  border: none;
+}
+.grey-btn-large{
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #A3A3A3;
+  box-shadow: 0 0 2px 0 #3D3D3D;
+}
+.grey-btn{
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #A3A3A3;
+  box-shadow: 0 0 2px 0 #3D3D3D;
+}
+.yellow-btn-small{
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #FFB81E;
+  box-shadow: 0 0 2px 0 #e6e6e6;
+}
+
+.yellow-btn{
+  width: 90px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #FFB81E;
+  box-shadow: 0 0 2px 0 #e6e6e6;
+}
+.blue-btn{
+  width: 80px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #0A79D2;
+  box-shadow: 0 0 2px 0 #3D3D3D;
+}
+.blue-btn-middle{
+  width: 180px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #0A79D1;
+  box-shadow: 0 0 2px 0 #3D3D3D;
+}
+.blue-btn-large{
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #0A79D1;;
+  box-shadow: 0 0 2px 0 #3D3D3D;
+}

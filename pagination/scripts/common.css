@@ -1,85 +1,17 @@
-.header {
-    position: relative;
-}
-
-.main-content {
-    margin-top: 50px;
-}
-
-#user-tips {
-    color: #fff;
-    line-height: 41px;
-}
-
-.main-info {
-    width: 100%;
-}
-
-.main-info ul,
-.main-info form {
-    margin-top: 50px;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.main-info li {
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
     list-style: none;
-    margin: 20px auto;
+    font-family: 'Hiragino Sans GB W3_0','Microsoft Yahei';
 }
-
-.main-info .center {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+a{
+    cursor: pointer;
 }
-
-.main-info .sui-pagination {
-    width: 100%;
+html,body{
+   min-width: 800px;
+   width: 100%;
 }
-
-.modal-dialog {
-    overflow: initial;
-    /*height: 500px;*/
-}
-
-
-/*goodsList*/
-
-.modal-tips {
-    color: rgb(237, 106, 90);
-}
-
-/*select*/
-.sui-dropdown li {
-    margin: 0 auto;
-}
-#form-header .span6,#form-header .span8{
-	margin-left: 0px;
-}
-#form-header{
-	border:1px solid #ccc;
-}
-.sui-row-fluid{
-	margin:10px;
-}
-.form-meidium{
-	border:1px solid #ccc;
-}
-.form-meidium a{
-	margin-top:5px;
-	margin-bottom: 5px;
-	margin-left: 20px; 
-}
-
-.main-info .ruku-form{
-	margin-top: 0;
-}
-
-/*模态窗口*/
-.modal-dialog form{
-	margin-top: 0;
-}
-.modal-dialog .modal-tr-hide{
-	display: none;
+li{
+    list-style: none;
 }
