@@ -11,3 +11,6 @@
 .x-pagination li{
 	display: inline-flex;
 }
+.modal-tr-hide{
+	display: none;
+}

@@ -15,15 +15,14 @@
 </head>
 
 <body>
-    <form>
+    <form id="pagin-content">
         <table class="x-table-grey">
             <thead>
                 <tr>
                     <th>title1</th>
                     <th>title2</th>
                     <th>title3</th>
-                    <th>title</tdh
-                </tr>
+                    <th>title</tdh </tr>
             </thead>
             <tbody>
                 <tr id="tr-1">
@@ -38,23 +37,23 @@
                     <td>content2-3</td>
                     <td>content2-4</td>
                 </tr>
-                <tr id="tr-3">
+                <tr id="tr-3" class="modal-tr-hide">
                     <td>content3-1</td>
                     <td>content3-2</td>
                     <td>content3-3</td>
                     <td>content3-4</td>
                 </tr>
-                <tr id="tr-4">
+                <tr id="tr-4" class="modal-tr-hide">
                     <td>content4-1</td>
                     <td>content4-2</td>
                     <td>content4-3</td>
                     <td>content4-4</td>
                 </tr>
-                <tr id="tr-5">
+                <tr id="tr-5" class="modal-tr-hide">
                     <td>content5-1</td>
                     <td>content5-2</td>
                     <td>content5-3</td>
-                    <td>content5-</td>
+                    <td>content5-4</td>
                 </tr>
             </tbody>
         </table>
@@ -70,3 +69,18 @@
 </body>
 
 </html>
+<script type="text/javascript" src="http://g.alicdn.com/sj/lib/jquery/dist/jquery.min.js"></script>
+<script src="pagination.js"></script>
+<script type="text/javascript">
+//     var obj = $('#pagin-content tr');
+// var dataObj = $('#pagin-content tr');
+// var paginObj=$('#pagin-content ul')
+// var page=pagination(obj,paginObj,dataObj);
+var page=pagination();
+console.log(page);
+page.initPage();
+function handleClick(a) {
+    console.log(a);
+     page.handleClick(a)
+}
+</script>
