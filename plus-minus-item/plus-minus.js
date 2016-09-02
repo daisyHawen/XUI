@@ -18,14 +18,12 @@ var plusMinus = (function() {
 				alert("只允许添加" + maxSize + "个条件");
 			} else {
 				var html = $(objClassName)[0].outerHTML;
-				console.log(html);
 				father_ul.append(html);
 				Counter = Counter + 1;
 			}
 		},
 		minusItems = function() {
 			/*首先找到fatherObj的最后一个元素*/
-			console.log(objClassName);
 			var limit_li = $(objClassName);
 			var last_limit_li = limit_li.last();
 			if (Counter > 1) {
@@ -36,7 +34,6 @@ var plusMinus = (function() {
 			}
 		},
 		init = function(ufatherObj, uobjClassName, umaxSize) {
-			console.log('init');
 			fatherObj = ufatherObj;
 			objClassName = uobjClassName;
 			maxSize = umaxSize;
