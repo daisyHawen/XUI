@@ -1,0 +1,16 @@
+.x-pagination{
+	text-align: center;
+	width: 100%;
+	margin-top:20px;
+	box-sizing: border-box;
+}
+.x-pagination ul{
+	display: flex;
+	justify-content: center;
+}
+.x-pagination li{
+	display: inline-flex;
+}
+.modal-tr-hide{
+	display: none;
+}

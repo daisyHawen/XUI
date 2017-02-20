@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Hiragino Sans GB W3_0','Microsoft Yahei';
+}
+a{
+    cursor: pointer;
+}
+html,body{
+   min-width: 800px;
+   width: 100%;
+}
+li{
+    list-style: none;
+}
